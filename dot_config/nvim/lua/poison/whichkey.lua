@@ -97,13 +97,7 @@ local mappings = {
 			"<cmd>lua require 'gitsigns'.undo_stage_hunk()<cr>",
 			"Undo Stage Hunk",
 		},
-		o = { "<cmd>Telescope git_status<cr>", "Open changed file" },
-		b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
-		c = { "<cmd>Telescope git_commits<cr>", "Checkout commit" },
-		d = {
-			"<cmd>Gitsigns diffthis HEAD<cr>",
-			"Diff",
-		},
+		o = { "<cmd>lua require 'neogit'.open({ kind = 'vsplit' })<cr>", "Open Neogit" },
 	},
 
 	l = {
