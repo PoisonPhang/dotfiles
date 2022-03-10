@@ -101,6 +101,7 @@ return packer.startup(function(use)
 	use("norcalli/nvim-colorizer.lua")
 	use("nvim-neorg/neorg")
 	use("j-hui/fidget.nvim")
+	use("justinmk/vim-sneak")
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
