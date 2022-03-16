@@ -7,6 +7,8 @@ vim.g.maplocalleader = " "
 
 -- Normal --
 
+keymap("n", "<esc><esc>", "<cmd>nohlsearch<cr>", opts)
+
 -- Window Navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)

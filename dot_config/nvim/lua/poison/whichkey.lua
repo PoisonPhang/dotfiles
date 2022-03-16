@@ -65,7 +65,6 @@ local opts = {
 local mappings = {
 	["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
 	["c"] = { "<cmd>Bdelete!<cr>", "Close Buffer" },
-	["<esc><esc>"] = { "<cmd>nohlsearch<cr>", "No Highlight" },
 	["h"] = { "<cmd>ColorizerToggle<cr>", "Hex Colors" },
 	["f"] = {
 		"<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
