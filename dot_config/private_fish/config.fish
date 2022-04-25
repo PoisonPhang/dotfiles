@@ -16,8 +16,5 @@ fish_add_path $HOME/.cargo/bin
 set -gx GPG_TTY (tty)
 set -gx EDITOR nvim
 
-# Aliases
-alias dot "/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-
 # STARSHIP
 starship init fish | source
