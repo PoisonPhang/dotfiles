@@ -24,4 +24,4 @@ vim.opt.scrolloff = 16
 vim.opt.sidescrolloff = 8
 
 vim.opt.shortmess:append("c")
-vim.opt.guifont = "hack:h12"
+vim.opt.guifont = "ComicCodeLigatures Nerd Font:h12"
