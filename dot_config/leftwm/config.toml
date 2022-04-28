@@ -93,7 +93,7 @@ key = "t"
 
 [[keybind]]
 command = "Execute"
-value = "kitty"
+value = "wezterm"
 modifier = ["modkey"]
 key = "Return"
 

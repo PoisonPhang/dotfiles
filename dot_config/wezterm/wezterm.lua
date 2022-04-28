@@ -1,0 +1,14 @@
+local wezterm = require("wezterm")
+
+-- Fonts
+local font = wezterm.font_with_fallback({
+  "Comic Code Ligatures",
+  "Symbols Nerd Font",
+})
+
+return {
+  color_scheme = "Catppuccin",
+  font = font,
+  font_size = 14,
+  hide_tab_bar_if_only_one_tab = true,
+}
