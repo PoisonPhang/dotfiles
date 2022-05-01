@@ -46,13 +46,13 @@ return packer.startup(function(use)
   use("nvim-lua/plenary.nvim") -- Useful lua functions used ny lots of plugins
   use("kyazdani42/nvim-web-devicons")
   use("kyazdani42/nvim-tree.lua")
-  use("akinsho/bufferline.nvim")
+  use({ "akinsho/bufferline.nvim", tag = "*", requires = "kyazdani42/nvim-web-devicons" })
   use({
     "nvim-lualine/lualine.nvim",
     requires = { "kyazdani42/nvim-web-devicons", opt = true },
   })
   use("moll/vim-bbye")
-  use("akinsho/toggleterm.nvim")
+  use({ "akinsho/toggleterm.nvim", tag = "*" })
   use("ahmedkhalf/project.nvim")
   use("folke/which-key.nvim")
   use("antoinemadec/FixCursorHold.nvim")
