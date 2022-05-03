@@ -131,7 +131,7 @@ local mappings = {
   t = {
     name = "Toggle",
     h = { "<cmd>ColorizerToggle<cr>", "Hex Colors" },
-    s = { "<cmd>setlocal spell spelllang=en_us", "Spelling On" },
+    s = { "<cmd>setlocal spell spelllang=en_us<cr>", "Spelling On" },
   },
 }
 
