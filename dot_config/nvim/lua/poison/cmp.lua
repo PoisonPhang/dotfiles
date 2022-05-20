@@ -45,6 +45,10 @@ local kind_icons = {
 }
 -- find more here: https://www.nerdfonts.com/cheat-sheet
 
+luasnip.config.set_config({
+	history = false,
+})
+
 cmp.setup({
 	snippet = {
 		expand = function(args)
