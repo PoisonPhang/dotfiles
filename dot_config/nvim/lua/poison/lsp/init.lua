@@ -42,8 +42,10 @@ pyright_opts = vim.tbl_deep_extend("force", pyright_opts, opts)
 lspconfig.pyright.setup(pyright_opts)
 
 -- rust
+local rust_tools_opts = require("poison.lsp.settings.rust_tools")
+rust_tools_opts = vim.tbl_deep_extend("force", rust_tools_opts, opts)
 rust_tools.setup({
-	server = opts,
+	server = rust_tools_opts,
 })
 
 require("poison.lsp.handlers").setup()
