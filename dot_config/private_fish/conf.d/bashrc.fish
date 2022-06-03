@@ -1,7 +1,7 @@
 ### GLOBALS ###
 
 set -gx EDITOR nvim
-set -gx PAGER most
+set -gx PAGER bat
 
 ### ALIASES ###
 
