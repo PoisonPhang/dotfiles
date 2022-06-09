@@ -8,7 +8,13 @@ neorg.setup({
 		["core.defaults"] = {},
 		["core.gtd.base"] = {},
 		["core.norg.concealer"] = {},
-		["core.norg.dirman"] = {},
+		["core.norg.dirman"] = {
+      config = {
+        workspaces = {
+          work = "~/notes/work"
+        }
+      }
+    },
 		["core.presenter"] = {},
 	},
 })
