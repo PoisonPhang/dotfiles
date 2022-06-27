@@ -2,6 +2,7 @@
 
 set -gx EDITOR nvim
 set -gx PAGER bat
+set -gx RUST_BACKTRACE 1
 
 ### ALIASES ###
 
