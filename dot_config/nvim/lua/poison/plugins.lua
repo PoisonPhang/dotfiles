@@ -108,6 +108,7 @@ return packer.startup(function(use)
 	use("nvim-neorg/neorg")
 	use("j-hui/fidget.nvim")
 	use("justinmk/vim-sneak")
+  use("Pocco81/true-zen.nvim")
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

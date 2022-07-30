@@ -132,6 +132,10 @@ local mappings = {
     name = "Toggle",
     h = { "<cmd>ColorizerToggle<cr>", "Hex Colors" },
     s = { "<cmd>setlocal spell spelllang=en_us<cr>", "Spelling On" },
+    a = { "<cmd>TZAtaraxis<cr>", "TZ Ataraxis"},
+    m = { "<cmd>TZMinimalist<cr>", "TZ Minimalist"},
+    n = { "<cmd>TZNarrow<cr>", "TZ Narrow"},
+    f = { "<cmd>TZFocus<cr>", "TZ Focus"},
   },
 }
 
