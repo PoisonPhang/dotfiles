@@ -1,0 +1,10 @@
+# Markdown
+[[language]]
+name = "markdown"
+language-server = { command = "ltex-ls" }
+rulers = [80]
+
+# Rust
+[[language]]
+name = "rust"
+config = { checkOnSave = { enable = false } }
