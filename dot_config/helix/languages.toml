@@ -7,4 +7,7 @@ rulers = [80]
 # Rust
 [[language]]
 name = "rust"
-config = { checkOnSave = { enable = false } }
+
+[[language.config]]
+checkOnSave = { enabled = false }
+
