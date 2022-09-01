@@ -8,6 +8,7 @@ rulers = [80]
 [[language]]
 name = "rust"
 
-[[language.config]]
-checkOnSave = { enabled = false }
+[language.config]
+checkOnSave.enabled = false
+rustfmt.extraArgs = [ "+nightly", ]
 
