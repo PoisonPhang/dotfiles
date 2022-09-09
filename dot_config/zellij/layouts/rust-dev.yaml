@@ -1,0 +1,17 @@
+---
+tabs:
+  - direction: Vertical
+    parts:
+      - direction: Horizontal
+        split_size:
+          Percent: 60
+      - direction: Horizontal
+        split_size:
+          Percent: 40
+        parts:
+          - direction: Vertical
+            split_size:
+              Percent: 75
+          - direction: Vertical
+            split_size:
+              Percent: 25
