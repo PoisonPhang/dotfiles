@@ -33,30 +33,6 @@ key = "F12"
 
 [[keybind]]
 command = "Execute"
-value = "shotgun"
-modifier = ["modkey", "Control"]
-key = "p"
-
-[[keybind]]
-command = "Execute"
-value = "setxkbmap us -variant colemak"
-modifier = ["modkey", "Control"]
-key = "c"
-
-[[keybind]]
-command = "Execute"
-value = "setxkbmap us"
-modifier = ["modkey", "Control"]
-key = "u"
-
-[[keybind]]
-command = "Execute"
-value = "xfce4-terminal --drop-down"
-modifier = []
-key = "F12"
-
-[[keybind]]
-command = "Execute"
 value = "dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'"
 modifier = ["modkey","Shift"]
 key = "d"
@@ -75,21 +51,9 @@ key = "x"
 
 [[keybind]]
 command = "Execute"
-value = "thunar"
-modifier = ["modkey", "Shift"]
-key = "Return"
-
-[[keybind]]
-command = "Execute"
 value = "leftwm-command ToggleFullScreen"
 modifier = ["modkey"]
 key = "f"
-
-[[keybind]]
-command = "Execute"
-value = "urxvt"
-modifier = ["modkey"]
-key = "t"
 
 [[keybind]]
 command = "Execute"
