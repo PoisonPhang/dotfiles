@@ -90,8 +90,11 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='hx'
+  export EDITOR='helix'
 fi
+
+# Pager
+export PAGER='bat'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -118,6 +121,9 @@ path+=("$HOME/.cargo/bin")
 
 # zoxide
 eval "$(zoxide init zsh)"
+
+# Node Version Manager
+source /usr/share/nvm/init-nvm.sh
 
 # GPG TTY
 export GPG_TTY=$(tty)
