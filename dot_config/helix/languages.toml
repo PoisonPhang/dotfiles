@@ -8,7 +8,6 @@ rulers = [80]
 [[language]]
 name = "rust"
 
-[language.config]
-checkOnSave.enabled = false
-rustfmt.extraArgs = [ "+nightly", ]
+[language.config.checkOnSave]
+command = "clippy"
 

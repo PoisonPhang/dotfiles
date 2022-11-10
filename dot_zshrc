@@ -119,6 +119,9 @@ bindkey -v
 # cargo bins
 path+=("$HOME/.cargo/bin")
 
+# .local/bin
+path+=("$HOME/.local/bin")
+
 # zoxide
 eval "$(zoxide init zsh)"
 
