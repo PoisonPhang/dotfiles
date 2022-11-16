@@ -134,3 +134,5 @@ export GPG_TTY=$(tty)
 # Starship
 eval "$(starship init zsh)"
 
+
+[ -f "/home/poisonphang/.ghcup/env" ] && source "/home/poisonphang/.ghcup/env" # ghcup-env
